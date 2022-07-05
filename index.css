@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('../git-project/images/wengang-zhai-WTEMy_KBhqk-unsplash.jpg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(61, 56, 56);
+    height: 100vh;
+}
+.navbar{
+    height: 12vh;
+    background-color: rgb(32, 4, 32);
+}
+
+.mnavv{
+    padding: 12px;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold ;
+    /* color: white; */
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link{
+    color: black !important;
+    font-size: 1rem !important;
+    padding-left: 1rem !important;
+
+}
+.cont{
+    text-align: center;
+    color:white;
+    padding-top: 11rem;
+}
+.cont h1{
+    font-size: 3rem;
+}
+cont p{
+    font-size: 4rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* width: 60rem; */
+}
+.brandtitle{
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.btn{
+    width: 15rem;
+}
