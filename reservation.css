@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.part3{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/wengang-zhai-WTEMy_KBhqk-unsplash.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(61, 56, 56);
+    height: 30vh; 
+    box-shadow: 2px 2px 2px 2px black;
+}
+.real{
+    text-align: center;
+    color: white;
+}
+.part3 p{
+    font-size: 2rem;
+}
+.part3 h1{
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.form{
+    /* margin-top: 10rem; */
+    margin:7rem auto;
+    max-width: 60rem;
+    width: 100%;
+}
+.form-control{
+    border-radius: 30px;
+    height: 3rem;
+}
+
+.btn{
+    width: 8rem;
+    background-color: rgb(243, 72, 10);
+    outline: 1px solid rgb(235, 70, 10);
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+    border-radius: 30px;
+    transition: .3s;
+    font-family: tahoma;
+}
+
+@media screen and (max-width:500px) {
+    .part3{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/wengang-zhai-WTEMy_KBhqk-unsplash.jpg) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: rgb(61, 56, 56);
+       /* min-height: 100vh; */
+        box-shadow: 2px 2px 2px 2px black;
+    }
+    .real p{
+        font-size: 25px;
+    }
+    .baby{
+        padding-top: 10px;
+        font-size: 40px !important;
+    }
+    .form{
+        margin-top: 100px;
+    }
+}
+

@@ -3,8 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(236, 231, 231);
+}
 header{
-    background-image: url('../git-project/images/wengang-zhai-WTEMy_KBhqk-unsplash.jpg') !important;
+    background-image: url('./images/wengang-zhai-WTEMy_KBhqk-unsplash.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,50 +16,172 @@ header{
     height: 100vh;
 }
 .navbar{
-    height: 12vh;
-    background-color: rgb(32, 4, 32);
-}
-
-.mnavv{
-    padding: 12px;
+    height: 11vh;
+    background-color:rgb(255, 82, 20);
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+     box-shadow: 2px 2px 2px 2px rgb(245, 148, 112); 
+    /* position: fixed; */
 }
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold ;
+    color: rgb(255, 255, 255);
     /* color: white; */
 }
 .navbar-nav{
     margin-left: auto;
 }
 .nav-link{
-    color: black !important;
-    font-size: 1rem !important;
-    padding-left: 1rem !important;
+    color: rgb(255, 255, 255) ;
+    font-size: 1rem;
+    padding-left: 1.4rem !important ;
 
+}
+.nav-link :hover{
+    cursor: pointer !important;
+    color: white !important;
 }
 .cont{
     text-align: center;
     color:white;
-    padding-top: 11rem;
+    padding-top: 18rem;
 }
 .cont h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
-cont p{
-    font-size: 4rem;
+.cont p{
+    font-size: 1.2rem !important ;
 }
-.form{
+/* .form{
     display: flex;
     justify-content: center;
     background-color: white;
-    /* width: 60rem; */
+    width: 40rem;
 }
 .brandtitle{
     color: black;
     font-size: 2rem;
     text-decoration: none;
     padding-left: 1rem;
-}
+} */
 .btn{
-    width: 15rem;
+    width: 10rem;
+    outline: 1px solid rgb(235, 70, 10);
+    color: white;
+    font-weight: 400;
+    margin-top: 1rem;
+    border-radius: 30px;
+    transition: .3s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(243, 72, 10);
+    color: white;
+    font-family: tahoma;
+}
+.part1{
+   min-height: 100vh;
+    padding-top: 8rem;
+    /* background-color: whitesmoke; */
+    /* background-color: rgba(250, 235, 215, 0.904); */
+}
+
+hr.divider{
+    width: 5rem;
+    height: 0.3rem !important;
+    background-color:  #ff3300 !important;
+    opacity: 1;
+    margin: auto;
+    /* margin-left: 32.3rem;
+    margin-top: 1.5rem; */
+}
+.pop{
+    padding-bottom: 1rem;
+}  
+.pap{
+     margin-top: 1rem !important;
+}  
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.box{
+    display: flex;
+    width: 260px;
+    height: 220px;
+    /* color: white; */
+    background-color: rgb(252, 200, 137);
+    /* background-color: #f3572f; */
+    border: 1px solid whitesmoke;
+    border-radius: 20%;  
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.part2{
+    background-color: orangered;
+    height: 50vh;
+    color: white;
+    border-top-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+}
+.top{
+    bottom: 3rem;
+    font-size: 2.3rem;
+}
+.gop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    cursor: pointer;
+    color:black;
+}
+@media screen and (max-width:500px) {
+    .navbar{
+        height: 14vh;
+    }
+    .nav-link{
+        color: white !important;
+    }
+    .navbar-toggler{
+        color: white;
+        /* background-color: white; */
+    }
+    .cont{
+        padding-top: 15rem;
+    } 
+    
+   .pol{
+    margin-top: 2rem;
+   }
+   .pool{
+    padding-top: 2rem;
+   }
+   .box{
+    margin-top: 1rem;
+   }
+   .part2{
+    margin-top: 5rem;
+    height: auto;
+   }
+   .gop{
+    display: block;
+    justify-content: center !important;
+   }
+   .me{
+    padding-top: 2rem;
+   }
+   .daps h6{
+     font-size: 2rem;
+   }
 }
